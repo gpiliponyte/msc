@@ -1,0 +1,23 @@
+{
+  "name": "msc",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "msc": "cli.js"
+  },
+  "scripts": {
+    "start": "budo index.js",
+    "test": "node test.js"
+  },
+  "author": "Greta Piliponyte",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.1.0",
+    "prompt": "^1.0.0",
+    "rxjs": "^6.5.5",
+    "xml-js": "^1.6.11"
+  }
+}
